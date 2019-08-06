@@ -5,10 +5,33 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+   <% name_string = "Team Name: " %>
+   <% name_string += @name %>
+   <h1> <%= name_string %> </h1>
 
+   <% coach_string = "Coach: " %>
+   <% coach_string += @coach %>
+   <h2> <%= coach_string %> </h2>
+
+   <% pg_string = "Point Guard: " %>
+   <% pg_string += @pg %>
+   <h2> <%= pg_string %> </h2>
+
+   <% sg_string = "Shooting Guard: " %>
+   <% sg_string += @sg %>
+   <h2> <%= sg_string %> </h2>
+
+   <% sf_string = "Small Forward: " %>
+   <% sf_string += @sf %>
+   <h2> <%= sf_string %> </h2>
+
+   <% pf_string = "Power Forward: " %>
+   <% pf_string += @pf %>
+   <h2> <%= pf_string %> </h2>
+
+   <% c_string = "Center: " %>
+   <% c_string += @c %>
+   <h2> <%= c_string %> </h2>
 
  </body>
 </html>
-
-
